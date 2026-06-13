@@ -1,0 +1,21 @@
+{
+  "name": "zhichi-shanlin-skills",
+  "description": "咫尺山林 ZhiChi ShanLin — Guo Xi's Three Distances and the walkable/viewable/wanderable/dwellable space, turned into an AI skill for composing spatial depth.",
+  "owner": {
+    "name": "WUJI",
+    "email": "okeah631@gmail.com",
+    "url": "https://github.com/wuji-labs"
+  },
+  "plugins": [
+    {
+      "name": "zhichi-shanlin",
+      "description": "Compose space with real depth — Three Distances (高遠/深遠/平遠) and 可行可望可游可居 — not just a flat grid.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "WUJI",
+        "url": "https://github.com/wuji-labs"
+      }
+    }
+  ]
+}

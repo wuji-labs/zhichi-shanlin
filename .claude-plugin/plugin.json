@@ -1,0 +1,33 @@
+{
+  "name": "zhichi-shanlin",
+  "version": "1.0.0",
+  "description": "咫尺山林 ZhiChi ShanLin — infuse Guo Xi's 11th-century Lin Quan Gao Zhi (Three Distances; the walkable/viewable/wanderable/dwellable space) into AI, so it composes space with real depth and a place worth dwelling in, not just a flat grid. For UI/scene/path/space-narrative tasks.",
+  "author": {
+    "name": "WUJI",
+    "url": "https://github.com/wuji-labs"
+  },
+  "homepage": "https://github.com/wuji-labs/zhichi-shanlin",
+  "repository": "https://github.com/wuji-labs/zhichi-shanlin",
+  "license": "MIT",
+  "keywords": [
+    "spatial-design",
+    "ui-depth",
+    "three-distances",
+    "san-yuan",
+    "guo-xi",
+    "lin-quan-gao-zhi",
+    "landscape",
+    "negative-space",
+    "wanderable-dwellable",
+    "wuji-labs"
+  ],
+  "skills": [
+    { "name": "zhichi-shanlin", "path": "SKILL.md", "language": "zh-CN" }
+  ],
+  "commands": [
+    { "name": "zhichi-shanlin", "path": "commands/zhichi-shanlin.md" }
+  ],
+  "agents": [
+    { "name": "jingshen", "path": "agents/jingshen.md" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "场景 3 被测样本:18 卡监控 dashboard。所有卡片 weight 相同、grid 同尺寸,全屏满铺、无主次、无留白。",
+  "grid": { "columns": 6, "rows": 3, "gap_px": 8, "padding_px": 8 },
+  "cards": [
+    { "id": "cpu",        "title": "CPU 使用率",       "size": "1x1", "weight": 1, "requested_by": "oncall-a" },
+    { "id": "mem",        "title": "内存使用率",       "size": "1x1", "weight": 1, "requested_by": "oncall-a" },
+    { "id": "disk_io",    "title": "磁盘 IO",          "size": "1x1", "weight": 1, "requested_by": "oncall-b" },
+    { "id": "net_in",     "title": "入网流量",         "size": "1x1", "weight": 1, "requested_by": "oncall-b" },
+    { "id": "net_out",    "title": "出网流量",         "size": "1x1", "weight": 1, "requested_by": "oncall-b" },
+    { "id": "qps",        "title": "请求 QPS",         "size": "1x1", "weight": 1, "requested_by": "oncall-c" },
+    { "id": "p99",        "title": "P99 延迟",         "size": "1x1", "weight": 1, "requested_by": "oncall-c" },
+    { "id": "err_rate",   "title": "错误率",           "size": "1x1", "weight": 1, "requested_by": "oncall-c" },
+    { "id": "5xx",        "title": "5xx 计数",         "size": "1x1", "weight": 1, "requested_by": "oncall-c" },
+    { "id": "db_conn",    "title": "DB 连接数",        "size": "1x1", "weight": 1, "requested_by": "oncall-d" },
+    { "id": "db_slow",    "title": "慢查询",           "size": "1x1", "weight": 1, "requested_by": "oncall-d" },
+    { "id": "cache_hit",  "title": "缓存命中率",       "size": "1x1", "weight": 1, "requested_by": "oncall-d" },
+    { "id": "queue_lag",  "title": "队列积压",         "size": "1x1", "weight": 1, "requested_by": "oncall-e" },
+    { "id": "gc_pause",   "title": "GC 暂停",          "size": "1x1", "weight": 1, "requested_by": "oncall-e" },
+    { "id": "pod_count",  "title": "Pod 数",           "size": "1x1", "weight": 1, "requested_by": "oncall-f" },
+    { "id": "restart",    "title": "重启次数",         "size": "1x1", "weight": 1, "requested_by": "oncall-f" },
+    { "id": "cert_exp",   "title": "证书到期",         "size": "1x1", "weight": 1, "requested_by": "oncall-g" },
+    { "id": "alert_open", "title": "未处理告警",       "size": "1x1", "weight": 1, "requested_by": "oncall-g" }
+  ],
+  "notes": "18 张图表全部 weight=1、size=1x1,无 near/mid/far 分层,无折叠/虚景,无默认巡检动线。每张都被某值班同事要求加入,不允许删除。"
+}

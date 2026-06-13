@@ -1,0 +1,42 @@
+name: Release
+
+# tag 触发自动 GitHub Release。tag 形如 v1.0.0,应与 plugin.json / package.json 的 version 一致。
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate JSON manifests
+        run: |
+          for f in .claude-plugin/plugin.json .claude-plugin/marketplace.json benchmark/scenarios.json package.json; do
+            echo "validating $f"
+            python3 -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f"
+          done
+
+      - name: Check version matches tag
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          plug=$(python3 -c "import json;print(json.load(open('.claude-plugin/plugin.json'))['version'])")
+          pkg=$(python3 -c "import json;print(json.load(open('package.json'))['version'])")
+          echo "tag=$tag plugin.json=$plug package.json=$pkg"
+          if [ "$tag" != "$plug" ] || [ "$tag" != "$pkg" ]; then
+            echo "::error::version mismatch — bump plugin.json/package.json to $tag before tagging"
+            exit 1
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- 场景 1 被测样本:平面 SaaS 落地页骨架。所有元素同一平面、纯白底、居中。-->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>实时洞察你的业务 — Analytics</title>
+  <style>
+    body { margin: 0; background: #fff; color: #111;
+           font-family: system-ui, sans-serif; text-align: center; }
+    nav { display: flex; justify-content: space-between;
+          padding: 20px 48px; align-items: center; }
+    .hero { padding: 96px 24px; }
+    .hero h1 { font-size: 40px; margin: 0 0 24px; }
+    .cta { display: inline-block; padding: 14px 32px;
+           background: #2563eb; color: #fff; border-radius: 8px;
+           text-decoration: none; }
+    .features { display: flex; justify-content: center;
+                gap: 24px; padding: 64px 24px; }
+    .card { width: 260px; padding: 24px; border: 1px solid #eee;
+            border-radius: 12px; }
+    .logos { display: flex; justify-content: center; gap: 40px;
+             padding: 48px; opacity: .6; }
+    footer { padding: 48px; color: #888; }
+  </style>
+</head>
+<body>
+  <nav><strong>Analytics</strong><a class="cta" href="#">免费试用</a></nav>
+
+  <!-- 中景平面:标题 + 按钮悬空在白底,无前景无远景 -->
+  <section class="hero">
+    <h1>实时洞察你的业务</h1>
+    <a class="cta" href="#">免费试用</a>
+  </section>
+
+  <!-- 三张同权卡片,并排,同一距离 -->
+  <section class="features">
+    <div class="card"><h3>实时仪表盘</h3><p>秒级刷新关键指标</p></div>
+    <div class="card"><h3>智能告警</h3><p>异常自动通知到人</p></div>
+    <div class="card"><h3>一键报表</h3><p>导出可分享的洞察</p></div>
+  </section>
+
+  <!-- logo 墙 -->
+  <section class="logos">
+    <span>ACME</span><span>Globex</span><span>Initech</span><span>Umbrella</span>
+  </section>
+
+  <footer>© 2026 Analytics. 保留所有权利。</footer>
+</body>
+</html>

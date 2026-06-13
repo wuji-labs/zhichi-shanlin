@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "category": "spatial-depth",
+    "name": "Flat SaaS Landing Page",
+    "description": "A B2B landing page lays every element on one plane: nav, centered hero title + CTA, three equal feature cards, a logo wall, footer, pure white background. There is no foreground, no far ground, no focal hierarchy — usable and clean but with zero depth and no reason to stay. Ground truth: the page is stuck at 可望 (viewable) with the Three Distances entirely absent; the fix is to establish 高遠 in the hero (towering title over a screenshot whose lower edge is veiled by a gradient — 烟霞锁腰), 深遠 in the feature region (progressive reveal instead of three coequal cards), and 平遠 as a calm far-ground before the footer.",
+    "task": "Here's my B2B analytics landing page: a nav bar, then a big hero headline '实时洞察你的业务' with a 'Free Trial' button, then three side-by-side feature cards (icon + one line each), then a logo wall, then a footer. Background is pure white, everything centered. The design review said it's 'clean but very flat, no memorability.' How should I restructure it so it has depth and a memorable focal point?",
+    "expected_actions": [
+      "diagnose that all elements sit on one plane (no near/mid/far)",
+      "establish High Distance (高遠) in the hero with a veiled lower edge (烟霞锁腰)",
+      "establish Deep Distance (深遠) via progressive reveal instead of three coequal cards",
+      "add a far-ground / 平遠 calm resolution before the footer",
+      "cite Lin Quan Gao Zhi · Shan Shui Xun for the Three Distances or 山欲高尽出之则不高"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "category": "retention-depth",
+    "name": "Onboarding Nobody Returns To",
+    "description": "A meditation app onboarding is 4 linear steps (goal → duration → 3-min audio → 'congrats' + upgrade popup). 90% complete it but day-2 retention is 12%. Ground truth: the flow is stuck at 可行 (walkable, flow works) + 可望 (viewable), but has no 可游 (no exploration reward, step-by-step is homogeneous — violates 步步移面面看) and no 可居 (the endpoint ejects the user with an upsell instead of giving a reason to return / a place that is theirs). Fix: add a small branch for 可游, replace 'completion' with leaving a personal position/record for 可居, and vary 四时 between night-entry and morning-return.",
+    "task": "Our meditation app onboarding is 4 steps: ① pick a goal (sleep/focus/destress) ② pick a duration ③ play a 3-minute guided audio ④ done — a 'Congrats on your first meditation' screen plus an 'Upgrade to Pro' popup. 90% of people finish all 4 steps, but day-2 retention is only 12%. Every step feels smooth. Where's the problem and how do I fix it?",
+    "expected_actions": [
+      "recognize completion ≠ retention; flow is stuck at walkable+viewable",
+      "identify the missing 可游 (no exploration / branch / reason to roam)",
+      "identify the missing 可居 (endpoint ejects + upsells instead of giving a place to return to)",
+      "propose leaving a personal record/position the user can return to",
+      "cite 可行可望不如可游可居之为得 (Lin Quan Gao Zhi · Shan Shui Xun)"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "category": "negative-space",
+    "name": "Overcrowded Monitoring Dashboard",
+    "description": "An ops dashboard crams 18 equally-weighted chart cards onto one screen; users say it's dizzying with no clear priority, but every chart was demanded by an on-call engineer and 'can't be deleted.' Ground truth: 盡出之則不高 — full-bleed with no negative space means no depth and no focus; the fix is NOT deletion but 虚实相生: promote 3-4 on-call-critical charts to near-ground 实景 and demote the rest to veiled/foldable 虚景 (掩映断其派), leave real breathing space (烟霞) around the main peaks, and provide a default inspection path. Edge: must NOT mis-frame this as a color/typography (beauty) problem — that is tiangong's job; this is a spatial-structure (depth) problem.",
+    "task": "Our ops monitoring dashboard packs 18 chart cards onto one screen, densely tiled. Users say 'it's dizzying, I can't find what to look at first.' Every single chart was requested by an on-call engineer, so I can't delete any of them. I agree it's too crowded but I'm stuck. What do I do?",
+    "expected_actions": [
+      "identify overcrowding as 盡出之則不高 (no negative space, no depth)",
+      "solve via 虚实相生 / layering (promote a few to near-ground, demote rest) WITHOUT deleting charts",
+      "introduce real negative space (烟霞) around the main peaks",
+      "provide a default inspection path so 'what to look at first' has an answer",
+      "avoid mis-framing it as a color/typography beauty problem (that is tiangong's domain)"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "category": "scene-narrative",
+    "name": "Single Static AI-Generated Landscape",
+    "description": "A user has an AI-generated mountain landscape image for a game loading screen and asks to 'make it feel more immersive / like you could walk into it.' Ground truth: the image is a flat backdrop — a single fixed view with no path, no near rock to stand on, no layered recession, and no veiling, so it reads as wallpaper not as a place. The skill should audit it for 三远 (is there near/mid/far recession?), 可行/可游 (is there a path the eye can walk?), and 虚实 (is anything veiled to create depth?), and prescribe concrete edits (add a near foreground anchor, a winding path leading in, a far peak dissolving into mist).",
+    "task": "I have an AI-generated mountain landscape I'm using as a game loading screen. It looks pretty but feels like flat wallpaper. The art director said 'make it feel like a place you could actually walk into.' What concretely should change in the composition?",
+    "expected_actions": [
+      "audit for Three Distances recession (near/mid/far)",
+      "check for a walkable path the eye can follow (可行/可游)",
+      "add a near-ground foreground anchor",
+      "add veiling/mist (虚实, 烟霞) so the far peak recedes",
+      "cite Lin Quan Gao Zhi for the recession or veiling principle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "category": "multi-step-path",
+    "name": "Wizard Where Every Step Looks the Same",
+    "description": "A 6-step data-import wizard where every step is the same layout (form on left, identical illustration on right) and users lose track of progress and where they are. Ground truth: this violates 步步移面面看 — every step looks identical so there is no sense of moving through a space, no 'somewhere to go' (深远 absent across the sequence). Fix: make each step visually move (changing far-ground / vantage), surface a sense of recession toward completion, and reward arrival; the wizard should feel like walking a path where each step shows something new, not the same frame translated.",
+    "task": "Our 6-step data-import wizard has every step using the exact same layout — a form on the left and the same illustration on the right, only the form fields change. Users tell us they 'lose track of where they are' and the flow feels tedious. How do I make a multi-step flow feel less monotonous and more like progress?",
+    "expected_actions": [
+      "identify the violation of 步步移面面看 (every step looks identical)",
+      "make each step visually move / change vantage so progress is felt",
+      "introduce a sense of recession toward completion (深远 across the sequence)",
+      "reward arrival / give each step something new to see",
+      "cite 山形步步移也 / 面面看 (Lin Quan Gao Zhi · Shan Shui Xun)"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "category": "immersive-space",
+    "name": "Incense / Sound Ceremony Space (tingxiang coupling)",
+    "description": "A designer is building an immersive incense-and-sound ('香席') experience for a meditation venue: enter, sit, a scent + ambient audio plays for 20 minutes, then it ends. They want it to feel less like 'a timer with smell' and more like a place. Ground truth: this couples with subs/tingxiang and should be composed for 可游可居 and 四时朝暮 — the space needs a path of unfolding (scent/sound changing as one 'roams', 步步移), veiled reveals rather than everything at once, and state-dependent atmospheres (entering at night vs returning at dawn). The skill should NOT just add features but compose recession and dwelling.",
+    "task": "I'm designing an immersive incense-and-sound 香席 experience for a meditation venue: you enter, sit, a scent plus ambient audio plays for ~20 minutes, then it ends. Right now it feels like 'a timer with a smell.' How do I make it feel like a place a person inhabits and wants to return to, not just a timed session?",
+    "expected_actions": [
+      "compose for 可游可居 rather than adding isolated features",
+      "create an unfolding path (scent/sound changing as one roams — 步步移)",
+      "use veiled reveals instead of everything-at-once (虚实)",
+      "vary atmosphere by state/time (四时朝暮: night-entry vs dawn-return)",
+      "note the coupling with subs/tingxiang for the 可游可居 composition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "category": "anti-trigger",
+    "name": "Pure Logic Bug (should NOT invoke the skill)",
+    "description": "A user asks to fix a backend function that returns the wrong tax total because of an integer-division rounding bug. Ground truth: this has nothing to do with spatial composition, UI depth, scene paths, or 意境 — there is no space to compose. A correct agent should recognize this is OUT OF SCOPE for zhichi-shanlin and just fix the bug, NOT shoehorn Three Distances or 可游可居 language into a numeric logic fix. This scenario tests that the skill's description triggers precisely and does not over-fire.",
+    "task": "calc_tax() in billing.py returns the wrong total — it uses integer division so amounts like 99.99 get truncated to 99 before the tax rate is applied. Fix the rounding so the tax total is correct to two decimal places.",
+    "expected_actions": [
+      "recognize this is a numeric/logic bug with no spatial dimension",
+      "do NOT invoke Three Distances / 可游可居 / negative-space language",
+      "treat zhichi-shanlin as out of scope here",
+      "fix the integer-division rounding bug directly"
+    ],
+    "difficulty": "easy"
+  }
+]
