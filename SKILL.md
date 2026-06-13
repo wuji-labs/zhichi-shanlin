@@ -1,6 +1,20 @@
 ---
 name: zhichi-shanlin
-description: 用北宋郭熙《林泉高致》的山水空间法(三远法 · 可行可望可游可居 · 虚实留白 · 步步移面面看)经营任何「空间 / 界面 / 场景 / 路径 / 意境」,让 AI 不止排布像素,而是造一片有纵深、可游可居的境。何时自动触发:设计有纵深的界面/落地页/画布、编排多屏多步体验(onboarding/引导流/wizard/叙事流)、做空间叙事或沉浸式场景(展陈/香席/茶席/冥想/空间音景)、为 3D/地图/全景/数字孪生安排取景与游观路线、审校 AI 生成的山水园林场景图、或诊断重构「太平/太满/没有呼吸/没去处/用一次不回来」的空间。用户会说:这页太平了/怎么有层次感/画面太满太挤/没有记忆点/用户用一次就不回来/感觉像贴图不像能走进去的地方/这个空间让人想不想走进去/留白怎么用/onboarding 太冗长/每一步都一样。一句判据:当问题是「这个空间让人想不想走进去、走得进去吗」就用本 skill。反触发(不要用):纯后端逻辑/算法/数据/数值 bug、与空间纵深和意境无关的代码修复、单纯配色字体的美学定夺(那是 tiangong 的活)——本 skill 只经营空间结构与体验,不改内容文案本意,不杜撰典源原文。
+description: >-
+  Composes any "space / interface / scene / path / mood" using the landscape
+  spatial method of Guo Xi's Northern-Song 《林泉高致》(三远 the Three Distances ·
+  可行可望可游可居 walkable/viewable/wanderable/dwellable · 虚实留白
+  void-and-substance) — so AI builds not just laid-out pixels but a realm with
+  depth, one you can roam and dwell in. Activates when: designing depth-bearing
+  interfaces / landing pages / canvases, sequencing multi-screen multi-step
+  experiences (onboarding, guided flows, narrative flows), crafting immersive
+  scenes (exhibitions, incense/tea ceremony, meditation, spatial audio),
+  arranging framing and a roam-route for 3D / maps / panorama / digital twins,
+  reviewing AI-generated landscape scenes, or reworking spaces that feel "too
+  flat / too crowded / nowhere to go / used once and never returned." One test:
+  if the question is "does this space make you want to walk in, and can you," use
+  this skill. Not for: backend logic / algorithms / numeric bugs, or pure
+  color/font aesthetics (tiangong's job).
 version: 1.0.0
 date: 2026-06-02
 authority: WUJI Labs
